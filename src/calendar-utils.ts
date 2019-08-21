@@ -57,6 +57,9 @@ export interface CalendarEvent<MetaType = any> {
   };
   draggable?: boolean;
   meta?: MetaType;
+  available?: number;
+  remaining?: number;
+  requested?: number;
 }
 
 export interface WeekViewAllDayEvent {
